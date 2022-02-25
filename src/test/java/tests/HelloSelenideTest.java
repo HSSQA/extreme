@@ -16,5 +16,7 @@ public class HelloSelenideTest {
         Configuration.browser = "chrome";
         Configuration.baseUrl = "http://ninjaplus-web:5000";
         assertEquals(title(), "Ninja+");
+
+        //ola
     }
 }
